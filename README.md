@@ -14,10 +14,12 @@ GPU-accelerated American Sign Language (ASL) recognition pipeline using multiple
 - **Full evaluation**: Bootstrap 95% CI, McNemar's test, per-class F1, confusion matrix, robustness tests
 
 ## Dataset Structure (after extraction)
+
+> **Note**: folder names contain a typo from the original dataset ( instead of ). The code matches these exact names.
 ```
 archive (2)/
     asl_alphabhet_test/asl_alphabhet_test/   ← A_test.jpg … Z_test.jpg, nothing.jpg, space.jpg
-    asl_alphabhet_train/asl_alphabhet_train/ ← A/ … Z/ del/ nothing/ space/
+    asl_alphabhet_train/asl_alphabhet_train/  ← A/ … Z/ del/ nothing/ space/ ← A/ … Z/ del/ nothing/ space/
 ```
 
 ## Quick Start

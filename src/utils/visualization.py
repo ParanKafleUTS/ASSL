@@ -7,7 +7,7 @@ draw_skeleton           – overlay the 21-keypoint hand skeleton on an image
 plot_confusion_matrix   – annotated heatmap of the confusion matrix
 plot_training_curves    – loss / accuracy curves for a training history
 plot_per_class_f1       – bar chart of per-class F1 scores
-visualise_attention     – grad-CAM for CNN models
+visualize_attention     – grad-CAM for CNN models
 save_augmentation_grid  – show augmentation effect on sample images
 """
 

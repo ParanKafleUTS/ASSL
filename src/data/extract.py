@@ -4,10 +4,10 @@ Extract and organise the ASL dataset from the zip archive.
 Expected zip layout
 -------------------
 archive (2)/
-    asl_alphabhet_test/
+    asl_alphabhet_test/          ← folder name typo preserved from original dataset
         asl_alphabhet_test/
             A_test.jpg … Z_test.jpg, nothing.jpg, space.jpg
-    asl_alphabhet_train/
+    asl_alphabhet_train/         ← folder name typo preserved from original dataset
         asl_alphabhet_train/
             A/ … Z/   del/ nothing/ space/   (each folder contains images)
 
